@@ -1,0 +1,14 @@
+{
+  "name": "vue-wasm-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:klvny/vue-wasm-template.git",
+  "author": "klvny <klvny90@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:wasm": "npx lerna run --scope exts asbuild:optimized"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
